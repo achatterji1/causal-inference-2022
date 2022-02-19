@@ -32,38 +32,37 @@
 
 % set the author, title, and date of the document. \maketitle adds it to the document.
 \author{Arpan Chatterji}
-\title{NLSY97 Data}
-\date{02.18.2022}
+\title{My Paper on NLSY97 Data}
+\date{Spring 2022}
 
 \begin{document}
 \maketitle
 
-\section{Findings}
-As reflected in Figure 1, males have longer incarceration periods on average as opposed to females. This appears to be true across races with the exception of Mixed Race. A deeper analyis would be required to explain this trend, however it can plausbily be attributed to missing data. From a racial perspective, Black males appear to have the longest average incarceration periods, going slightly over 8 months, followed by Mixed Race females with 6 months long incarceration periods on average. Among the females, Black females seem to have the shortest average incarceration periods of slighty over 2.6 months, and among the males, Non-Black/Non-Hispanic males seem to have the shortest average incarceration periods lasting for, approximately 4.6 months. Similiar patterns are reflected in Table 1 which shows the mean incarceration length by race and gender.
+\section{Incarceration Status Graph}
 
-Table 2 shows the regression output of linearly regressing Mean Incarceration Length in months on Race and Gender. Black females is the ommited category which also reflects that this group experiences the shortest average incarceration period i.e. 5.143 months. Being Hispanic decreases the average incarceration period by 2.306 months. Being Mixed Race increases the average incarceration period by 0.857 months. Being Non-Black/Non-Hispanic reduces the average incarceration period by 2.589 months. Being a male increases the average incarceration period by 2.610 months.
+As reflected in Figure 1, males have longer incarceration periods on average as opposed to females. This appears to be true across races with the exception of Mixed Race, for which the average incarceration period for males is zero in 2002. From a racial perspective, Black males appear to have the longest average incarceration periods, going slightly over 8 months, followed by Mixed Race females with 6 months long incarceration periods on average. Among the females, Black females seem to have the shortest average incarceration periods of slightly over 2.6 months, and among the males, Non-Black/Non-Hispanic males seem to have the shortest average incarceration periods lasting for approximately 4.6 months. Similar patterns are reflected in Table 1 which shows the mean incarceration length by race and gender.
+
+Table 2 shows the regression output of linearly regressing Mean Incarceration Length in months on Race and Gender. Black females are the omitted category which reflects that this group experiences the shortest average incarceration period i.e. 5.143 months. Being Hispanic decreases the average incarceration period by 2.306 months. Being Mixed Race increases the average incarceration period by 0.857 months. Being Non-Black/Non-Hispanic reduces the average incarceration period by 2.589 months. Being male increases the average incarceration period by 2.610 months.
 
 The regression output is mostly in line with the patterns observed in Figure 1. However, all of the slope coefficients are statistically insignificant. Furthermore, the R-squared is only 0.161, indicating that only 16.1 percent of the variation in the mean incarceration period is explained by the covariates in the regression model. This shows that the model fits the data poorly and cannot be relied on.
 
-It is interesting that no single race has the highest or shortest average incarceration periods collectively for both the genders.
-For instance, one might expect Black males and females to have the longest average incarceration periods and Non-Black/Non-Hispanic males and females to have the shortest average incarceration periods. However, that intuition is only true for Black males and Non-Black/Non-Hispanic males. It is plasubile that the number of observations for incarcerated Black females might be higher than that of Non-Black/Non-Hispanic females as Black females might be charged for a variety of crimes ranging from minimally severe to very severe, whereas the Non-Black/Non-Hispanic females might only charged for very severe crimes with higher incarceration periods. This could explain the unusually low mean incarceration period for Black females and the unusually high mean incarceration period for Non-Black/Non-Hispanic females.
-
-\section{Figures}
+It is interesting that no single race has the highest or shortest average incarceration periods collectively for both genders.
+For instance, one might expect Black males and females to have the longest average incarceration periods and Non-Black/Non-Hispanic males and females to have the shortest average incarceration periods. However, that intuition is only true for Black males and Non-Black/Non-Hispanic males. It is plausible that the number of observations for incarcerated Black females might be higher than that of Non-Black/Non-Hispanic females as Black females might be charged for a variety of crimes ranging from minimally severe to very severe, whereas the Non-Black/Non-Hispanic females might only be charged for very severe crimes with higher incarceration periods. This could explain the unusually low mean incarceration period for Black females and the unusually high mean incarceration period for Non-Black/Non-Hispanic females.
 
 \begin{figure}[H]
-\begin{center}
-\includegraphics[width=.85\textwidth]{incar_length_by_racegender}
-\end{center}
-\caption{A bar plot of Mean Incarceration Length in 2002 by Race and Gender}
-\label{fig:graph}
+    \begin{center}
+        \includegraphics[width=.85\textwidth]{incar_length_by_racegender.png}
+    \end{center}
+    \caption{Incarcerated in 2002 by Race and Gender}
+    \label{fig:graph}
 \end{figure}
-
-\section{Tables}
-
-
 \input{../tables/incar_length_by_racegender.tex}
 
 
+\newpage
+\section{Incarceration Status Regression Analysis}
+
 \input{../tables/reg_incar_length_by_racegender.tex}
+
 
 \end{document}

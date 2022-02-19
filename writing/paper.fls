@@ -703,7 +703,7 @@ INPUT ..\figures\\incar_length_by_racegender.png
 INPUT ..\figures\\incar_length_by_racegender.png
 INPUT ..\figures\\incar_length_by_racegender.png
 INPUT ..\figures\\incar_length_by_racegender.png
-INPUT C:\Users\galon\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT ..\figures\\incar_length_by_racegender.png
 INPUT ..\tables\incar_length_by_racegender.tex
 INPUT ..\tables\incar_length_by_racegender.tex
 INPUT ..\tables\incar_length_by_racegender.tex
@@ -716,6 +716,7 @@ INPUT C:\Users\galon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\galon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\galon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\galon\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\galon\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT ..\tables\reg_incar_length_by_racegender.tex
 INPUT ..\tables\reg_incar_length_by_racegender.tex
 INPUT ..\tables\reg_incar_length_by_racegender.tex

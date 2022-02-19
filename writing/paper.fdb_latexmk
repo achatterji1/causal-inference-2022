@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1645248418 "c:/Users/galon/causal-inference-2022.1/writing/paper.tex" "paper.pdf" "paper" 1645248419
+["pdflatex"] 1645249607 "c:/Users/galon/causal-inference-2022.1/writing/paper.tex" "paper.pdf" "paper" 1645249608
   "../figures//incar_length_by_racegender.png" 1645247727 43849 4dfd38aa29a4f7f65e07d7cca482e4b6 ""
   "../tables/incar_length_by_racegender.tex" 1645247181 475 130be24f88ad974a85aacd97c7345fe5 ""
   "../tables/reg_incar_length_by_racegender.tex" 1645247612 1094 16d4e722bf038184b087aa6947ef0c11 ""
@@ -101,10 +101,10 @@
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636710260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/galon/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "c:/Users/galon/causal-inference-2022.1/writing/paper.tex" 1645248416 4197 bbd7fc77866a6547d199783ef8b72e95 ""
-  "paper.aux" 1645248419 1817 ef6996f79c00267ff496f9b0b021ed9d "pdflatex"
-  "paper.out" 1645248419 234 dc0f4569d9da1da8c30ab432851db786 "pdflatex"
-  "paper.tex" 1645248416 4197 bbd7fc77866a6547d199783ef8b72e95 ""
+  "c:/Users/galon/causal-inference-2022.1/writing/paper.tex" 1645249606 4269 5fb7b21716bf83bbb11aeabd16d21348 ""
+  "paper.aux" 1645249608 1711 373e5d0222a105944666a0275698d8c2 "pdflatex"
+  "paper.out" 1645249608 431 81070289fa1b68fbfa87d2b33cee5239 "pdflatex"
+  "paper.tex" 1645249606 4269 5fb7b21716bf83bbb11aeabd16d21348 ""
   (generated)
   "paper.aux"
   "paper.log"
