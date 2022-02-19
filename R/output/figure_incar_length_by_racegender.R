@@ -1,9 +1,9 @@
 # Builds a bar graph with incar_length on the y axis and race/gender on the
 # x axis. Refer to my presentation on graphing for more detail.
 
-read_csv(here("data/NLSY97_clean.csv")) %>%
+read_csv(here("data/NLS_new_clean.csv")) %>%
   group_by(race, gender) %>%
-  summarize(incar_length  = mean(incar_length)) %>%
+  summarise(incar_length  = mean(incar_length)) %>%
   ggplot(aes(race, incar_length, fill = gender)) +
   geom_bar(stat = "identity", position = "dodge") +
   labs(

@@ -7,7 +7,7 @@ library(sandwich)
 # Builds a LaTeX table of regression output using the stargazer package.
 
 model <- 
-  read_csv(here("data/NLSY97_clean.csv")) %>%
+  read_csv(here("data/NLS_new_clean.csv")) %>%
   lm(incar_length ~ race + gender, data = .)
 
 # Here we supply our own standard errors b/c we want to 
@@ -24,7 +24,7 @@ stargazer(
   se = list(se),
   covariate.labels = covariate.labels,
   dep.var.labels = "Length of incarceration in 2002",
-  out = here("tables/regress_incar_length_by_racegender.tex"),
+  out = here("tables/reg_incar_length_by_racegender.tex"),
   title = "Regression Output. Omitted category is Black Females.",
   label = "tab:regression"
 )

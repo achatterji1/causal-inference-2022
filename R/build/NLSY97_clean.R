@@ -3,7 +3,7 @@
 # vignette("colwise")
 # vignette("rowwise")
 
-read_csv(here("data/NLSY97_raw.csv")) %>%
+read_csv(here("data/NLS_new.csv")) %>%
   
   # refused responses or incarcerated previously but not in current month --> NA
   # starts_with("E") are the columns that show incarceration status per month of 2002
@@ -37,4 +37,4 @@ read_csv(here("data/NLSY97_raw.csv")) %>%
   select(race, gender, incar_length) %>%
   
   # write to a csv
-  write_csv(here("data/NLSY97_clean.csv"))
+  write_csv(here("data/NLS_new_clean.csv"))
